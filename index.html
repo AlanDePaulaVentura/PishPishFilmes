@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>PishPishFilmes</title>
+</head>
+<body>
+    <div class="nome text-center">
+        <h1>PISH PISH FILMES</h1>
+    </div>
+    <div class="container bg-white">
+        <h2>FILMES</h2>
+    </div>
+    <div class="container">
+        <div class="row slick-carousel">
+            <div class="col">
+                <a href="https://cdnst50.tokyvideo.com/videos/458/458997/mp4/6c45ce851417c58379b15d02edafdf98781b56e8081e456789ea2d43c1e9f3db.mp4?secure=0Fc-WtaHxrsSkot6yOhaGg%3D%3D%2C1707448989" target="_blank" rel="noopener noreferrer">
+                    <img src="img/O Mundo Depois de Nós.jpg" class="img-fluid" alt="...">
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://lapumba.xyz/e/157336-dub" target="_blank" rel="noopener noreferrer">
+                    <img src="img/Interestelar.jpg" class="img-fluid" alt="...">
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://lapumba.xyz/e/447365-dub" target="_blank" rel="noopener noreferrer">
+                    <img src="img/Guardiões da Galáxia Vol. 3.jpg" class="img-fluid" alt="...">
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://archive.org/download/tumulo-dos-vagalumes-1988/T%C3%BAmulo%20dos%20Vagalumes%20%281988%29.ia.mp4" target="_blank" rel="noopener noreferrer">
+                    <img src="img/Tumulo dos Vagalumes.jpg" class="img-fluid" alt="...">
+                </a>
+            </div>
+            <!-- Adicione mais colunas conforme necessário -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slick-carousel').slick({
+                infinite: true,
+                slidesToShow: 3, // Ajuste o número de imagens visíveis conforme necessário
+                slidesToScroll: 1,
+                prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+                nextArrow: '<button type="button" class="slick-next">Next</button>',
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+</html>

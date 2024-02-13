@@ -29,7 +29,7 @@ var filmes = [
     { titulo: 'Túmulo dos Vagalumes',link:'https://archive.org/download/tumulo-dos-vagalumes-1988/T%C3%BAmulo%20dos%20Vagalumes%20%281988%29.ia.mp4', imagem: 'img/Tumulo dos Vagalumes.jpg' },
     { titulo: 'Até o Último Homem',link: 'https://embedder.net/e/tt2119532', imagem: 'img/Até o Último Homem.jpg' },
     { titulo: 'Homem-Aranha no Aranhaverso', imagem: 'img/Homem aranha no Aranha Verso.jpg' },
-    { titulo: 'Rocky Um Lutador', imagem: 'img/Rocky Um Lutador.jpg' },
+    { titulo: 'Rocky Um Lutador',link: 'https://embedder.net/e/tt0075148', imagem: 'img/Rocky Um Lutador.jpg' },
     { titulo: 'Rocky 2 - A Revanche', imagem: 'img/Rocky 2 - A Revanche.jpg' },
     { titulo: 'Rocky 3 - Desafio Supremo', imagem: 'img/Rocky 3 - Desafio Supremo.jpg' },
     { titulo: 'Rocky 4', imagem: 'img/Rocky 4.jpg' },

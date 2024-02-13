@@ -23,7 +23,7 @@ function pesquisar(event) {
     document.getElementById('resultados').style.display = 'block';
 }
 var filmes = [
-    { titulo: 'O Mundo Depois de Nós',link, imagem: 'img/O Mundo Depois de Nós.jpg' },
+    { titulo: 'O Mundo Depois de Nós', imagem: 'img/O Mundo Depois de Nós.jpg' },
     { titulo: 'Interestelar',link: 'https://embedder.net/e/tt0816692', imagem: 'img/Interestelar.jpg' },
     { titulo: 'Guardiões da Galáxia Vol. 3', imagem: 'img/Guardiões da Galáxia Vol. 3.jpg' },
     { titulo: 'Túmulo dos Vagalumes',link:'https://archive.org/download/tumulo-dos-vagalumes-1988/T%C3%BAmulo%20dos%20Vagalumes%20%281988%29.ia.mp4', imagem: 'img/Tumulo dos Vagalumes.jpg' },

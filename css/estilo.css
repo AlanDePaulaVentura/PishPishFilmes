@@ -1,6 +1,68 @@
-body{
-    background-color: black;
+body {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0; /* Certifique-se de que não há margens no corpo para cobrir completamente */
+    height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
 }
 h1{
-    color: #e50914;
+    color: #0692f0;
+}
+h2{
+    color: #0692f0;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px; /* Ajuste conforme necessário */
+}
+
+.logo-container img {
+    width: 100px; /* Ajuste a largura conforme necessário */
+    height: auto;
+    margin-left: 10px; /* Espaçamento entre o título e a imagem */
+}
+
+/* Estilo para esconder os resultados inicialmente */
+#resultados {
+    display: none;
+}
+
+/* Estilo para a lista de resultados */
+#resultados ul {
+    background-color: rgba(255, 255, 255, 0.178);
+    list-style-type: none;
+    padding: 0;
+}
+
+#resultados img {
+    max-width: 100%;
+    height: auto;
+}
+
+#listaResultados li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#listaResultados img {
+    width: 250px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Isso garante a proporção correta */
+}
+
+#menu {
+    margin-bottom: 5px;
+}
+
+#email_form {
+    padding-right: 50%;
+    list-style-type: none;
+}
+
+#contato_submit {
+    margin-top: 10px;
+    margin-left: 5px;
 }
